@@ -35,7 +35,7 @@
 		
 		skel.init({
 			reset: 'full',
-			pollOnce: true,
+			pollOnce: false,
 			breakpoints: {
 				'global':	{ range: '*', href: 'css/style.css' },
 				'desktop':	{ range: '737-', href: 'css/style-desktop.css', containers: 1200, grid: { gutters: 25 }, viewport: { width: 1080, scalable: false } },
