@@ -63,6 +63,8 @@
 	em, i
 	{
 		font-style: italic;
+		font-size: .9em; 
+		color: #e7c4c4;
 	}
 	
 	hr
@@ -371,6 +373,11 @@
 			{
 				padding-left: 0.25em;
 			}
+
+	#testimonial{
+		margin: 15px;
+		margin-left: 20px; 
+	}
 
 /*********************************************************************************/
 /* Icons                                                                         */
