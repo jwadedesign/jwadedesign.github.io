@@ -65,8 +65,8 @@
 
 	.container.\31 25\25 {
 		width: 100%;
-		max-width: 1200px;
-		min-width: 960px;
+		max-width: 850px;
+		min-width: 760px;
 	}
 
 	.container.\37 5\25 {
@@ -1718,9 +1718,10 @@
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/bg01.png"), url("../../images/header4.jpg");
+		background: url("../../images/homepage.jpg") no-repeat;
+		background-size: 100%;
 		background-position: top left, center center;
-		background-size: auto, cover;
+		background-size: cover;
 	}
 
 	#main-wrapper {
